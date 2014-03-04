@@ -11,10 +11,7 @@
 			main.sanity();
 		},
 		'mainMethods' : function () {
-			function fittype() {
-				$("#masthead").fitText(0.55);	
-			}     
-			      
+		
 			function sanityCheck() {
 				console.log("you're wonderful keep up the good work")
 			}
