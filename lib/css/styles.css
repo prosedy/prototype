@@ -42,35 +42,27 @@ h6 {
   font-weight: normal;
   line-height: 1.25;
   margin-bottom: .1em;
+  text-transform: lowercase;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 h2 {
   font-size: 1.75em;
-  font-style: italic;
-  color: #222222;
 }
 h3 {
   font-size: 1.5em;
   font-style: italic;
-  color: #6f6f6f;
 }
 h4 {
   font-size: 1.33em;
-  font-weight: bold;
-  color: #a2a2a2;
 }
 h5 {
   font-size: 1.25em;
-  font-weight: bold;
-  color: #cacaca;
 }
 h6 {
-  font-size: 1em;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #eeeeee;
+  font-size: 1.125em;
+  font-style: italic;
 }
 .header h1 {
   line-height: 1;
@@ -85,6 +77,13 @@ p {
 }
 a {
   font-weight: normal;
+  transition: color .5s linear;
+  -moz-transition: color .5s linear;
+  /* FF3.7+ */
+  -o-transition: color .5s linear;
+  /* Opera 10.5 */
+  -webkit-transition: color .5s linear;
+  /* Saf3.2+, Chrome */
 }
 a:link,
 a:visited,
@@ -108,7 +107,7 @@ blockquote:first-letter {
   font-size: 2em;
   letter-spacing: -0.125em;
 }
-.fancyquote {
+*[class^='fancyquote'] {
   font-family: 'IM Fell DW Pica', serif;
   font-style: italic;
 }
@@ -125,7 +124,7 @@ blockquote:first-letter {
   box-sizing: border-box;
 }
 body {
-  background: white;
+  background: #ffffff;
 }
 ::selection {
   background: #f0d507;
@@ -220,11 +219,11 @@ header.main .logo a {
   text-decoration: none;
   color: black;
   font-family: 'IM Fell DW Pica', serif;
-  text-transform: uppercase;
   letter-spacing: 1em;
 }
 header.main .logo h1 {
   font-size: 4em;
+  text-transform: uppercase !important;
 }
 header.main nav li {
   text-align: right;

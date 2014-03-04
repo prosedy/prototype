@@ -17,7 +17,7 @@
   }
 }
 body {
-  background: white;
+  background: lighten(@accent, 22%);
 }
 ::selection {
 	background: @accentBold; /* Safari */
@@ -77,11 +77,12 @@ header.main {
 			text-decoration: none;
 			color: black;
 			font-family: @serif;
-			text-transform: uppercase;
+			
 			letter-spacing: 1em;
 		}
 		h1 {
 			font-size: 4em;
+			text-transform: uppercase !important;
 		}
 	}
 	nav {
