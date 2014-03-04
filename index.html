@@ -15,9 +15,20 @@ title: welcome
 
 <section class="blog" id="welcome">
 <div class="site">
-{% for post in site.posts %}
-	<a href="post.url"><h2>{{post.title}}</h2></a>
-{% endfor %}
+	
+	{% for category in site.categories %}
+	<h2 class="location__title" id="{{category | first}}">{{category | first}}</h2>
+	{% for posts in category %}
+	<article>
+		{% for post in posts %}
+		{% if post.title %}
+		<a href="{{post.url}}"><h2>{{post.title}}</h2></a>
+		{% endif %}
+		{% endfor %}
+	</article>	
+	{% endfor %}
+	{% endfor %}
+	
 	
 </div>
 </section>
