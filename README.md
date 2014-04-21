@@ -3,6 +3,11 @@ prototype
 
 prosedy prototype ideas
 
+
+
+
+----
+
 ###think
 - Tekstflyt (extant)
 - Prompter
