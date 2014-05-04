@@ -1,15 +1,11 @@
 ---
 layout: post
-title: picture frame
+title: one-inch picture frame
 category: think
 ---
-One inch picture frame, from Anne Lamott (bird by bird)
+from Anne Lamott (Bird by Bird)
 
-write what you can see through a one-inch picture frame + literal interpretation of how tiny it really is (one paragraph and we're done)
-
-(maybe here add an interaction for encouragement - a tiny progress bar?)
-
-TODO: make timestamp more useful, redo this in angular
+Write what you can see through a one-inch picture frame + literal interpretation of how tiny this is (one paragraph and we're done)
 
 <style>
 .picture-frame {
@@ -59,7 +55,7 @@ TODO: make timestamp more useful, redo this in angular
 }
 </style>
 
-<textarea class="picture-frame">
+<textarea class="picture-frame" placeholder="start your story...">
 </textarea>
 
 
