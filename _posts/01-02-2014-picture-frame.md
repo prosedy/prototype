@@ -45,7 +45,7 @@ TODO: make timestamp more useful, redo this in angular
 	margin-right: 0.5em;
 	font-family: "Asap";
 	text-transform: uppercase;
-	background: transparent;
+	background: white;
 	letter-spacing: 0.05em;
 }
 .pf__control button:focus {
