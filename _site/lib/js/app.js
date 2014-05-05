@@ -70,6 +70,10 @@
 					return;
 				}
 			}
+			
+			$(window).on('beforeunload', function(){
+				return 'Save your changes!';
+			});
 
 			$input.on("change", function() {
 				done($(this).val());
